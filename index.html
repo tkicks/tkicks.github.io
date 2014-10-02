@@ -1,51 +1,83 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
-		<title>Tyler Kickham</title>
-		<link rel="stylesheet" href="index.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="index.js"></script>
+	    <link rel="stylesheet" href="./css/foundation.css">
+	    <link rel="stylesheet" href="index.css">
+		<script src="/js/vendor/modernizr.js"></script>
+		<title>
+			Mark Leblanc
+		</title>
 	</head>
-
 	<body>
-		<a name="top"></a>
-		<header>
-			<canvas id="header">
-			<!-- remove this once matrix working -->
-				<div id="matrix_name">Tyler Kickham</div>
-			</canvas>
-		</header>
 
-		<section id="navbar">
-			<nav>
-				<ul>
-					<li><a href="#top">Tyler Kickham</a></li> |
-					<li><a href="#about">About Me</a></li> | 
-					<li><a href="#projects">Projects</a></li>
-				</ul>
-			</nav>
-		</section>
+  <div class="row">
+    <div class="large-7 columns">
+      <h1><img src="img/markroot.png"/></h1>
+    </div>
+  </div>
+  
+   
+  
+  <div class="row"><br /><br /></div>
+  <div class="row">    
+    
+     
+      
+    <img class="large-7 push-5 columns" src="img/wordcloud.jpg"/>   
+    
+     
+     
+    <div class="large-4 pull-8 columns">
 
-		<main>
-			<section class="top">
-				
-				<div id="images">
-					<img src="skeleton.jpg" />
-			</section>
+	      	<ul class="stack button-group">
+			  <li><a href="http://wheatoncollege.edu/genomics/" class="small button">Genomics</a></li>
+			  <li><a href="http://wheatoncollege.edu/lexomics/" class="small button">Anglo Saxon</a></li>
+			  	<!-- <a href="#" data-options="is_hover:true" data-dropdown="rightDrop" class="small button" aria-expanded="false">Research</a>
+				<ul id="rightDrop" class="f-dropdown drop-right" data-dropdown-content aria-hidden="false">
+				  <li><a href="http://wheatoncollege.edu/genomics/">Genomics</a></li>
+				  <li><a href="http://wheatoncollege.edu/lexomics/">Anglo Saxon</a></li>
+				</ul> -->
+			  <li><a href="http://cs.wheatoncollege.edu/~mleblanc/courses.html" class="small button">Teaching</a></li>
+			  <li><a href="http://wheatoncollege.edu/faculty/profiles/mark-d-leblanc/" class="small button">Profile</a></li>
+			  <li><a href="http://cs.wheatoncollege.edu/~mleblanc/personal.html" class="small button">Personal</a></li>
+		  </ul>
 
-			<section class="aboutMe">
-				<a name="about"></a>
-			</section>
+	  </br>
+      <p><img src="img/progLang.jpg"/></p>
 
-			<section class="myProjects">
-				<a name="projects"></a>
-			</section>
-		</main>
+    </div>
+    
+  </div>
+    
+  <footer class="row">
+  	<!-- wrap the progress bar and picture in a 12-column grid to work on mobile -->
+  	<div class="small-12 large-12 columns">
+	  	<div class="large-11 push-0 columns">
+		  	ETA:
+		  	<div class="progress small-0 large-100 success round">
+				<span class="meter" style="width: 33%"></span>
+			</div>
+		</div>
+		<div class="large-1 pull-0 columns">
+	        <p><img src="img/mark.jpg"/></p>
+		</div>
+	</div>
+	
+    <hr id="hr"/>
+    <div class="row">
+        <div class="large-10 columns">
+        	<p>mleblanc@wheatoncollege.edu        |        508.286.3970        |        Professor Wheaton College        |        Norton, MA</p>
+        </div>
+    </div>
+  </footer>
 
-		<footer>
-			<!-- put footer stuff here -->
-		</footer>
+
+
+		<script src="/js/vendor/jquery.js"></script>
+		<script src="/js/vendor/fastclick.js"></script>
+		<script src="/js/foundation.min.js"></script>
+		<script>
+			$(document)foundation();
+		</script>
 	</body>
-
 </html>
