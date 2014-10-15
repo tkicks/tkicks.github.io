@@ -1,15 +1,51 @@
 body {
-	background: linear-gradient(180deg, black, white);
-	background-repeat: no-repeat;
+	background-color: #000;
 }
 
 footer {
-	color: #000;
+	position: fixed;
+	margin-bottom: 2%;
+	color: #fff;
 }
 
-footer #hr {
-	border-color: #ff0;
-	border: none;
-	border-top: thick double;
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav {
+	color: #fff;
+	margin: 0 auto;
 	text-align: center;
+}
+
+nav li {
+	display: inline-table;
+}
+
+nav li #about:hover, #portfolio:hover {
+	background-color: #20b2aa;
+}
+
+#navbar {
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 2em;
+}
+
+#header, #matrix_name {
+	font-size: 5em;
+	text-align: center;
+	height: 2em;
+	width: 100%;
+	background-color: #000;
+	color: #00ff00;
+	margin: 0;
+	padding: 0;
+}
+
+#about_me {
+	height: 50%;
+	width: 50%;
 }
