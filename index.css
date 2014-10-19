@@ -47,6 +47,11 @@ nav li #about:hover, #portfolio:hover {
 }
 
 #about_me {
-	height: 50%;
-	width: 50%;
+	height: 230px;
+	width: 230px;
+}
+
+#portfolio {
+	height: 230px;
+	width: 230px;
 }
