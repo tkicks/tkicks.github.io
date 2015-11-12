@@ -1,7 +1,8 @@
-#bookClub {
+.center {
 	font-size: 40px;
 	color: #fff;
-	margin: 42%;
+	width: inherit;
+	text-align: center;
 }
 
 body {
