@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
 	// matrix effect in progress
 	var myCanvas = document.getElementById("header");
 	var matrix_text = document.getElementById("matrix_name").innerHTML;
@@ -10,4 +10,4 @@ $(document).ready(function () {
 		ctx1.fillText(matrix_text, Math.random()*(500), Math.random()*(500));
 	};
 	setInterval(matrix, 30);
-})
+})*/
