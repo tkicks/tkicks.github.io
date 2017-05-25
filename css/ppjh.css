@@ -1,0 +1,64 @@
+.center {
+	font-size: 40px;
+	color: #fff;
+	width: inherit;
+	text-align: center;
+}
+
+body {
+	background-color: #000;
+}
+
+footer {
+	position: fixed;
+	margin-top: 40%;
+	text-align: left;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav {
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav li {
+	display: inline-table;
+}
+
+nav li #about:hover, #portfolio:hover {
+	background-color: #20b2aa;
+}
+
+#navbar {
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 2em;
+}
+
+#header, #matrix_name {
+	font-size: 5em;
+	text-align: center;
+	height: 2em;
+	width: 100%;
+	background-color: #000;
+	color: #00ff00;
+	margin: 0;
+	padding: 0;
+}
+
+#about_me {
+	height: 230px;
+	width: 230px;
+}
+
+#portfolio {
+	height: 230px;
+	width: 230px;
+}
