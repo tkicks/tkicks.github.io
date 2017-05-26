@@ -98,7 +98,7 @@ small screen css
 
 .video-description-small {
 	padding-left: 0.3em;
-	color: #fff;
+	color: #000;
 	font-family: Futura, serif, Sans-Serif;
 	float: right;
 	width: 40%;
@@ -112,7 +112,14 @@ small screen css
 .video-wrapper-small {
 	display: inline-block;
 	margin: 10% 10%;
+	padding-top: 1em;
+	padding-right: 0.2em;
+	padding-bottom: 1em;
+	padding-left: 0.2em;
 	width: auto;
+	border-color: green;
+	border-radius: 10px;
+	background-color: white;
 }
 
 #vid-grow-light-small {
