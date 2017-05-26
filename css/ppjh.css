@@ -6,7 +6,7 @@
 }*/
 
 body {
-	background-color: #20b2aa;
+	background-color: #2e528a;
 }
 
 footer {
@@ -27,12 +27,21 @@ nav {
 	text-align: center;
 }
 
+.vid-wrapper {
+	width: 100%;
+	height: 100%;
+}
+
 .menu-button {
-	margin-top: 10%;
-	margin-left: 48%;
-	height: 50px;
-	width: 50px;
-	background-color: #fff;
+	margin: 2% auto;
+
+	/* if JHL */
+	max-width: 80%;
+
+	/* if menu icon */
+	/*height: 50px;*/
+	/*width: 50px;*/
+	/*background-color: #fff;*/
 }
 
 .menu-button > #line1 {
@@ -50,6 +59,10 @@ nav {
 	background-color: #fff;
 }
 
+.topbar-wrapper {
+	/* */
+}
+
 #header, #matrix_name {
 	font-size: 5em;
 	text-align: center;
@@ -59,4 +72,52 @@ nav {
 	color: #00ff00;
 	margin: 0;
 	padding: 0;
+}
+
+#topbar-logo {
+	display: none;
+	margin-top: 3%;
+	/*image-rendering: optimizeSpeed;*/
+	/*max-height: 100%;*/
+}
+
+#vid-grow-light-large {
+	margin-top: 20%;
+	margin-left: 20%;
+	/*height: 20%;*/
+	width: 20%;
+	min-width: 300px;
+	max-width: 500px;
+}
+
+
+
+/*
+small screen css
+*/
+
+.video-description-small {
+	padding-left: 0.3em;
+	color: #fff;
+	font-family: Futura, serif, Sans-Serif;
+	float: right;
+	width: 40%;
+	overflow-y: scroll;
+}
+
+.vid-title-small {
+	font-weight: bold;
+}
+
+.video-wrapper-small {
+	display: inline-block;
+	margin: 10% 10%;
+	width: auto;
+}
+
+#vid-grow-light-small {
+	float: left;
+	width: 60%;
+	min-width: 100px;
+	max-width: 500px;
 }
