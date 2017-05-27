@@ -1,34 +1,25 @@
-// $(document).ready(function () {
-// 	// matrix effect in progress
-// 	var myCanvas = document.getElementById("header");
-// 	var matrix_text = document.getElementById("matrix_name").innerHTML;
-// 	var ctx1 = myCanvas.getContext("2d");
-// 	var matrix = function() {
-// 		ctx1.fillStyle='rgba(0,0,0,.07)';
-// 		ctx1.fillRect(0,0,500,500);
-// 		ctx1.fillStyle="#0f0";
-// 		ctx1.fillText(matrix_text, Math.random()*(500), Math.random()*(500));
-// 	};
-// 	setInterval(matrix, 30);
-// });
-
 var resizeTimer;
 
 $(document).ready(function() {
-	$(".video-description-small").css("height", $("#vid-grow-light-small").height());
+	$(".video-description").css("height", $(".video-content").height());
+	$("#topbar-logo").css("width", $(".content-wrapper").width());
 });
 
 
+// call resize function when screen size changes
 $(window).resize(function() {
 	clearTimeout(resizeTimer);
 	resizeTimer = setTimeout(Resized, 1);
 });
 
+
+// resize video and logo when screen size changes
 function Resized() {
-	$(".video-description-small").css("height", $("#vid-grow-light-small").height());
+	$(".video-description").css("height", $(".video-content").height());
+	$("#topbar-logo").css("width", $(".content-wrapper").width());
 };
 
-
+// no use yet....look when a menu button gets added
 $(function() {
 	$(".menu-button").click(function() {
 		$(".submenu").slideToggle();

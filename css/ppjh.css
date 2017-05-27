@@ -105,6 +105,16 @@ small screen css
 	overflow-y: scroll;
 }
 
+.video-description-small-widescreen {
+	margin-left: 5%;
+	text-align: center;
+	color: #000;
+	font-family: "Bowlby One";
+	font-style: italic;
+	font-size: 25px;
+	width: 90%;
+}
+
 .vid-title-small {
 	font-weight: bold;
 }
@@ -125,6 +135,13 @@ small screen css
 #vid-grow-light-small {
 	float: left;
 	width: 60%;
+	min-width: 100px;
+	max-width: 500px;
+}
+
+#vid-grow-light-small-widescreen {
+	margin-left: 5%;
+	width: 90%;
 	min-width: 100px;
 	max-width: 500px;
 }
